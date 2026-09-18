@@ -21,7 +21,7 @@ import {
 
 /* ─── Shared ──────────────────────────────────────────────────────────────── */
 
-function useStage(margin = "-80px") {
+function useStage(margin: any = "-80px") {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin });
   return { ref, inView };
