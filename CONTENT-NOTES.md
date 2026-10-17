@@ -53,3 +53,7 @@ No invented outcomes, usage metrics, proficiency scores or additional project cl
 Frontend, backend, retrieval and shipping details come from the supplied AVEN/FGB brief. Google ADK/SmartStudy details come from the previously checked workshop repository. Automation examples come from prior owner-provided project context: Gmail label to Sheets, form response to Slack, invoice attachments to Drive, personalized emails; learning with n8n and Zapier. These are personal learning projects, not paid client deployments or measured business outcomes.
 
 LinkedIn /in/taher-saifee was searched during this update. Only a limited About preview and education snippets were publicly visible. Direct retrieval was blocked. Do not claim a complete LinkedIn review or treat recommended courses, others’ posts or similarly named profiles as Taher’s skills or achievements. Full About and Skills text can be incorporated when the user supplies it.
+
+## Owner update — 17 October 2026
+
+Python: comfortable coding. Has worked with various data-science libraries, but no exact library names supplied. Do not list future machine-learning libraries as current skills. Sketch artist by hobby; Instagram account name Artyvisions (exact handle/URL not supplied). Interests include learning more about AI; favourite subject physics. No other hobbies, awards or proficiency percentages inferred. Interests are not portrayed as professional credentials.

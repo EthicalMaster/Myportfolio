@@ -26,6 +26,7 @@
  selectSkill('frontend');
 
  const destinations=[
+  {title:'Skills & interests',meta:'Python, data, AI, physics and Artyvisions',keywords:'skills programming data science sketching art hobbies physics python interests artyvisions',href:'skills/'},
   {title:'AVEN',meta:'Flagship · adaptive learning platform',keywords:'ai learning react typescript backend postgres qdrant quizzes education',href:'#aven'},
   {title:'SmartStudy',meta:'Workshop · coordinated AI agents',keywords:'python google adk ai sequential parallel loop',href:'#smartstudy'},
   {title:'FGB Tea & Sarra’s portfolio',meta:'Websites · client frontend and architecture',keywords:'frontend websites domains vercel shipping design',href:'#websites'},
@@ -38,7 +39,7 @@
  let previousFocus=null;
  function filtered(){const words=input.value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);return destinations.filter(d=>words.every(w=>(d.title+' '+d.meta+' '+d.keywords).toLocaleLowerCase().includes(w)));}
  function close(){dialog.close();document.body.classList.remove('explorer-open');previousFocus?.focus({preventScroll:true});}
- function navigate(href){close();const target=document.querySelector(href);if(!target)return;target.setAttribute('tabindex','-1');target.focus({preventScroll:true});target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});history.replaceState(null,'',href);}
+ function navigate(href){close();if(!href.startsWith('#')){location.assign(href);return;}const target=document.querySelector(href);if(!target)return;target.setAttribute('tabindex','-1');target.focus({preventScroll:true});target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});history.replaceState(null,'',href);}
  function render(){
   results.replaceChildren();const matches=filtered();
   matches.forEach(d=>{const a=document.createElement('a');a.href=d.href;a.className='command-result';const title=document.createElement('strong'),meta=document.createElement('span'),arrow=document.createElement('b');title.textContent=d.title;meta.textContent=d.meta;arrow.textContent='↗';arrow.setAttribute('aria-hidden','true');a.append(title,meta,arrow);a.addEventListener('click',e=>{e.preventDefault();navigate(d.href);});results.append(a);});

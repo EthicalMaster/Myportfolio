@@ -35,3 +35,5 @@ nav{gap:24px}.command-trigger{display:flex;align-items:center;gap:10px;min-heigh
 @keyframes art-reveal{from{translate:0 14px}to{translate:0 0}}
 .more-work>a{transition:color .2s ease}.more-work>a:hover{padding-left:0;padding-right:0;color:var(--accent)}
 }
+
+@layer components{.skills-page-link{display:block;padding:28px 0 10px;font-size:clamp(18px,2.3vw,32px);letter-spacing:-.03em;color:#c5dcb5}.skills-page-link span{display:block;font-size:12px;letter-spacing:0;color:var(--muted);margin-top:14px;min-height:44px}.skills-page-link:hover span{color:var(--accent)}}

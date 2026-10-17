@@ -98,3 +98,13 @@ Scroll-linked transforms and pointer tilt now use frame-rate-independent exponen
 Progress uses a transform instead of layout width. Project arrivals use translation instead of animated clipping; website-link hovers no longer animate padding. Skill-panel transitions cancel cleanly without forcing a layout read.
 
 Source checks, intro regression tests and a particle-render simulation passed (finite coordinates, drawing batch limit, pause continuity, pulse and hidden-tab stop). Actual frame rates and device smoothness were not measured; supported browser profiling remains unavailable.
+
+## Skills & Interests page
+
+Open `/skills/` or use the new homepage navigation/command-search entry. Three keyboard-accessible views cover Build, Explore and Sketch. The page works as readable sections without JavaScript. Python is described as a language Taher is comfortable coding in, based on his latest description; specific data-science library names are not assumed. Current project experience is separated from personal interests. Future machine-learning skills are not listed.
+
+Explore includes an illustrative sine-wave study with amplitude/cycle controls, manual play/pause, reduced-motion stepping, and offscreen/hidden-tab suspension. Sketch introduces Artyvisions by name and offers a local visitor drawing pad with pointer input, a keyboard-accessible line study, Undo and Clear. The pad is explicitly not Taher’s artwork and uploads nothing. No Instagram handle/link is guessed.
+
+Latest owner-provided facts: comfortable coding in Python; experience with various data-science libraries; sketch artist by hobby under the Instagram account name Artyvisions; interest in learning more about AI; physics is his favourite subject. Exact data-science libraries, the Artyvisions URL and real artwork can be added later.
+
+Run `node scripts/test-skills.mjs` for tab navigation, wave controls and drawing actions. Both pages and their relative links pass build validation. Real browser/mobile visual QA remains pending.
