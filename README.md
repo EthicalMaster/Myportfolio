@@ -83,7 +83,7 @@ LinkedIn review: public search exposed a short About preview for the supplied /i
 
 ## Opening sequence and mobile layout
 
-A custom SVG T/S circuit monogram assembles into a brief opening sequence. The three readiness checks are actual document parsing, typography readiness and successful loading/execution of the three deferred interaction scripts. The count is checks completed, not a network download percentage. A minimum 1.45-second visual sequence plus a 0.55-second reveal is used for ordinary motion; reduced-motion visitors get no intentional delay. Skip and Escape immediately open the page. Failed scripts or an overall 4.5-second timeout release the overlay without claiming readiness.
+A custom SVG T/S circuit monogram assembles into a brief opening sequence. The three readiness checks are actual document parsing, typography readiness and successful loading/execution of the deferred interaction scripts. The count is checks completed, not a network download percentage. A minimum 1.45-second visual sequence plus a 0.55-second reveal is used for ordinary motion; reduced-motion visitors get no intentional delay. Skip and Escape immediately open the page. Failed scripts or an overall 4.5-second timeout release the overlay without claiming readiness.
 
 The intro runs on fresh visits and ordinary refreshes. Fragment destinations, in-page navigation and browser-history restoration bypass it. No session tracking or persistent visitor identifiers are used. The dialog is hidden by default, so a missing intro script or disabled JavaScript does not block the site.
 
@@ -108,3 +108,9 @@ Explore includes an illustrative sine-wave study with amplitude/cycle controls, 
 Latest owner-provided facts: comfortable coding in Python; experience with various data-science libraries; sketch artist by hobby under the Instagram account name Artyvisions; interest in learning more about AI; physics is his favourite subject. Exact data-science libraries, the Artyvisions URL and real artwork can be added later.
 
 Run `node scripts/test-skills.mjs` for tab navigation, wave controls and drawing actions. Both pages and their relative links pass build validation. Real browser/mobile visual QA remains pending.
+
+## SVG creative transition
+
+An original SVG interlude sits between Selected Work and the Builder’s Circuit. The existing hero sculpture is unchanged. One line morphs continuously from a graphite-like stroke into a sine wave and a circuit, then back. It is code-generated artwork, not a Higgsfield-generated video. There are no video downloads, credits, external dependencies or tracking.
+
+Visitors can pause automatic motion or choose Sketch/Wave/Circuit. Manual selection pauses autoplay and smoothly settles to the selected form. Reduced-motion visitors get still forms and manual selection. Animation suspends offscreen and in hidden tabs. A static SVG and description remain when JavaScript is unavailable. Run `node scripts/test-interlude.mjs` to check path validity, frame scheduling, pause, form selection, background-tab stop and reduced motion. Browser visual profiling remains unavailable.
