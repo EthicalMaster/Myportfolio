@@ -24,6 +24,7 @@
  nodes.forEach(node=>node.addEventListener('click',()=>selectSkill(node.dataset.skill)));
  document.querySelector('#skill-next').addEventListener('click',()=>selectSkill(keys[(active+1)%keys.length]));
  selectSkill('frontend');
+ window.addEventListener('portfolio:content',e=>{for(const key of keys)if(e.detail.circuit?.[key])Object.assign(skills[key],e.detail.circuit[key]);selectSkill(keys[active]);});
 
  const destinations=[
   {title:'Skills & interests',meta:'Python, data, AI, physics and Artyvisions',keywords:'skills programming data science sketching art hobbies physics python interests artyvisions',href:'skills/'},

@@ -114,3 +114,10 @@ Run `node scripts/test-skills.mjs` for tab navigation, wave controls and drawing
 An original SVG interlude sits between Selected Work and the Builder’s Circuit. The existing hero sculpture is unchanged. One line morphs continuously from a graphite-like stroke into a sine wave and a circuit, then back. It is code-generated artwork, not a Higgsfield-generated video. There are no video downloads, credits, external dependencies or tracking.
 
 Visitors can pause automatic motion or choose Sketch/Wave/Circuit. Manual selection pauses autoplay and smoothly settles to the selected form. Reduced-motion visitors get still forms and manual selection. Animation suspends offscreen and in hidden tabs. A static SVG and description remain when JavaScript is unavailable. Run `node scripts/test-interlude.mjs` to check path validity, frame scheduling, pause, form selection, background-tab stop and reduced motion. Browser visual profiling remains unavailable.
+
+
+## v9 — Portfolio Studio
+
+Owner editor: `/admin/`. Includes editable existing copy, repeatable future content, separate personal/Artyvisions links, résumé and certificate attachments, draft preview, publishing and history. The database connection is **not activated** in this bundle. Start with `backend/README.md`; the dashboard accurately shows setup required until configured. Existing static content and motion are retained.
+
+Run `npm run build` and `node scripts/test-cms.mjs`. Backend authorization and browser/mobile acceptance must be checked after setup; the local checks are not proof of a live secured backend.

@@ -57,3 +57,12 @@ LinkedIn /in/taher-saifee was searched during this update. Only a limited About 
 ## Owner update — 17 October 2026
 
 Python: comfortable coding. Has worked with various data-science libraries, but no exact library names supplied. Do not list future machine-learning libraries as current skills. Sketch artist by hobby; Instagram account name Artyvisions (exact handle/URL not supplied). Interests include learning more about AI; favourite subject physics. No other hobbies, awards or proficiency percentages inferred. Interests are not portrayed as professional credentials.
+
+
+## Dashboard content rules (v9)
+
+- No résumé exists yet. Public visibility defaults off.
+- Two incoming certifications have no supplied titles or files. Certificate list remains empty.
+- Personal Instagram: existing taher.saifee87 URL. Artyvisions exact URL not supplied; leave empty.
+- Existing facts are preserved in the static pages and CMS defaults; future edits can be made once the backend is connected.
+- Collections extend the existing portfolio; original text is edited separately, and original sections/projects can be hidden.
