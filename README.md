@@ -121,3 +121,8 @@ Visitors can pause automatic motion or choose Sketch/Wave/Circuit. Manual select
 Owner editor: `/admin/`. Includes editable existing copy, repeatable future content, separate personal/Artyvisions links, résumé and certificate attachments, draft preview, publishing and history. The database connection is **not activated** in this bundle. Start with `backend/README.md`; the dashboard accurately shows setup required until configured. Existing static content and motion are retained.
 
 Run `npm run build` and `node scripts/test-cms.mjs`. Backend authorization and browser/mobile acceptance must be checked after setup; the local checks are not proof of a live secured backend.
+
+
+## v10 — Expressive portfolio guide
+
+A small SVG robot now offers a visitor-controlled tour on both public pages, with current-page excerpts, optional browser read-aloud and motion controls. This is the character/tour phase, not live AI chat. See `GUIDE-NOTES.md`. Your existing Supabase configuration is not modified by this update.
