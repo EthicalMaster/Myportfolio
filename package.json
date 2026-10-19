@@ -1,1 +1,1 @@
-{"name":"taher-portfolio","version":"0.10.0","private":true,"type":"module","scripts":{"dev":"node scripts/dev.mjs","start":"node scripts/dev.mjs","build":"node scripts/build.mjs"},"engines":{"node":">=20"}}
+{"name":"taher-portfolio","version":"0.10.1","private":true,"type":"module","scripts":{"dev":"node scripts/dev.mjs","start":"node scripts/dev.mjs","build":"node scripts/build.mjs"},"engines":{"node":">=20"}}

@@ -17,3 +17,8 @@ Connect a provider through a server-side endpoint. Keep provider secrets off the
 ## Verification
 
 `npm run build`, `node scripts/test-guide.mjs`, and existing CMS/motion checks. Browser QA was unavailable in the authoring environment. Before merging, check the first-visit greeting after intro, both page tours, keyboard/Escape, mobile rail clearance, reduced motion, speech stop controls, dismissal/reopen, and quotations after a dashboard publication. Check that your local `dist/cms-config.js` connection remains unchanged when applying the bundle.
+
+
+## Character refinement (v10.1)
+
+Replaced the flat badge with a larger floating graphite head, ivory frame, layered visor, amber beacon, detached hands and softly shaded shell. The launcher is now the character with a small Say hello label. Added smiling hover/focus eyes, curious head tilt, tour gesture, asymmetrical blinks and an animated speaking mouth. No change to narration or tour content. Unique gradient IDs prevent interference between panel and launcher art. Reduced-motion and pause controls still apply.

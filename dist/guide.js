@@ -5,16 +5,49 @@ function initialize(){
  const reduced=matchMedia('(prefers-reduced-motion: reduce)'),isSkills=!!document.querySelector('.skills-page');
  const read=key=>{try{return sessionStorage.getItem('portfolio-guide-'+key);}catch{return null;}};
  const write=(key,value)=>{try{sessionStorage.setItem('portfolio-guide-'+key,value);}catch{}};
- const avatar=`<svg class="g-avatar" data-mood="hello" viewBox="0 0 96 96" aria-hidden="true"><ellipse class="g-shadow" cx="48" cy="84" rx="25" ry="4"/><g class="g-body"><path d="M48 24V15" stroke="#a9b99b" stroke-width="2"/><circle class="g-antenna" cx="48" cy="12" r="4"/><rect class="g-shell" x="18" y="25" width="60" height="44" rx="17"/><rect class="g-face" x="25" y="33" width="46" height="27" rx="10"/><g class="g-eyes"><rect class="g-eye" x="34" y="40" width="6" height="10" rx="3"/><rect class="g-eye" x="56" y="40" width="6" height="10" rx="3"/><path class="g-mouth" d="M43 53Q48 57 53 53"/></g><path class="g-shell" d="M35 69V75Q48 82 61 75V69"/><rect fill="#ffad66" x="44" y="70" width="8" height="3" rx="1.5"/><path class="g-hand" d="M76 57Q90 48 89 58L82 69Q76 71 76 65Z"/><path fill="#c6d9b1" d="M20 57Q9 58 12 66L20 68Z"/></g></svg>`;
+ const avatar=id=>`<svg class="g-avatar" data-mood="hello" viewBox="0 0 160 160" aria-hidden="true">
+ <defs>
+  <linearGradient id="${id}-shell" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#5d645e"/><stop offset=".42" stop-color="#303932"/><stop offset="1" stop-color="#151d19"/></linearGradient>
+  <linearGradient id="${id}-rim" x2=".2" y2="1"><stop stop-color="#fff9e9"/><stop offset=".55" stop-color="#c8c8b6"/><stop offset="1" stop-color="#777f71"/></linearGradient>
+  <linearGradient id="${id}-glass" x2=".5" y2="1"><stop stop-color="#263c36"/><stop offset="1" stop-color="#081511"/></linearGradient>
+  <radialGradient id="${id}-light"><stop stop-color="#b8e49b" stop-opacity=".22"/><stop offset="1" stop-color="#b8e49b" stop-opacity="0"/></radialGradient>
+ </defs>
+ <ellipse class="g-aura" cx="80" cy="88" rx="73" ry="68" fill="url(#${id}-light)"/>
+ <ellipse class="g-shadow" cx="80" cy="142" rx="35" ry="5"/>
+ <ellipse class="g-orbit" cx="80" cy="140" rx="26" ry="7" fill="none" stroke="#bbd4a7" stroke-opacity=".35" stroke-width=".8"/>
+ <g class="g-body">
+  <g class="g-head-tilt">
+   <path d="M81 38L87 22" stroke="#778574" stroke-width="3" stroke-linecap="round"/>
+   <circle class="g-beacon-halo" cx="88" cy="19" r="9" fill="#ffad66" opacity=".12"/><circle class="g-antenna" cx="88" cy="19" r="4"/><circle cx="87" cy="18" r="1.3" fill="#fff1d9"/>
+   <rect x="27" y="65" width="12" height="29" rx="6" fill="#38483d" stroke="#95a58b" stroke-width="1"/>
+   <rect x="121" y="65" width="12" height="29" rx="6" fill="#38483d" stroke="#95a58b" stroke-width="1"/>
+   <path d="M54 38Q80 30 109 42Q125 48 126 71L124 91Q121 111 102 115L58 113Q37 109 35 90L34 66Q35 45 54 38Z" fill="url(#${id}-shell)" stroke="#778674" stroke-width="1.2"/>
+   <path d="M51 43Q79 34 108 47" fill="none" stroke="#d8e7cf" stroke-opacity=".45" stroke-width="1.2" stroke-linecap="round"/>
+   <rect x="41" y="48" width="78" height="56" rx="23" fill="url(#${id}-rim)"/>
+   <rect x="45" y="52" width="70" height="48" rx="20" fill="url(#${id}-glass)" stroke="#15291e" stroke-width="1.5"/>
+   <path d="M51 65Q55 56 68 56H97" fill="none" stroke="#d8f1d7" stroke-opacity=".15" stroke-width="2" stroke-linecap="round"/>
+   <g class="g-eyes">
+    <g class="g-eye g-eye-left"><rect class="g-eye-open" x="59" y="65" width="10" height="17" rx="5"/><path class="g-eye-smile" d="M58 76Q64 65 70 76"/></g>
+    <g class="g-eye g-eye-right"><rect class="g-eye-open" x="91" y="65" width="10" height="17" rx="5"/><path class="g-eye-smile" d="M90 76Q96 65 102 76"/></g>
+    <path class="g-mouth" d="M75 87Q80 91 85 87"/>
+    <ellipse class="g-mouth-speaking" cx="80" cy="88" rx="4" ry="3"/>
+    <path class="g-cheek" d="M55 85H61M99 85H105"/>
+   </g>
+   <path d="M66 108H94" stroke="#111e16" stroke-width="3" stroke-linecap="round"/>
+   <path class="g-charge" d="M72 108H88" stroke="#ffad66" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g class="g-left-hand"><path d="M22 99Q28 94 33 100L38 109Q40 116 32 119Q25 122 22 115L18 108Q16 103 22 99Z" fill="url(#${id}-rim)" stroke="#778674" stroke-width="1"/><path d="M23 106L28 113" stroke="#465646" stroke-width="1.5" stroke-linecap="round"/></g>
+  <g class="g-hand"><path d="M130 94Q136 90 140 97L145 107Q148 114 141 118Q133 122 129 115L124 105Q121 98 130 94Z" fill="url(#${id}-rim)" stroke="#778674" stroke-width="1"/><path d="M132 101L138 111" stroke="#465646" stroke-width="1.5" stroke-linecap="round"/></g>
+ </g></svg>`;
  const root=document.createElement('aside');root.id='portfolio-guide';root.setAttribute('aria-label','Portfolio guide');
- root.innerHTML=`<div id="g-greeting" hidden><p>Hey, welcome to Taher’s corner of the web. Want a quick tour?</p><div class="g-greet-actions"><button type="button" id="g-greet-start">Show me around ↗</button><button type="button" id="g-greet-no">Just exploring</button></div></div><section id="g-panel" role="dialog" aria-modal="false" aria-labelledby="g-title" hidden><div class="g-head">${avatar}<div><p class="g-kicker">A LITTLE COMPANY</p><h2 id="g-title">Portfolio guide</h2></div><button type="button" id="g-minimize" aria-label="Minimize guide">−</button></div><p class="g-copy" id="g-copy"></p><blockquote class="g-source" id="g-source" hidden></blockquote><div class="g-actions"><button type="button" id="g-start" class="g-primary">Take a quick tour ↗</button><button type="button" id="g-next" class="g-primary" hidden>Next stop →</button><button type="button" id="g-back" hidden>Previous</button><button type="button" id="g-context">About this section</button><button type="button" id="g-stop" hidden>End tour</button></div><p id="g-status" role="status"></p><div class="g-foot"><button type="button" id="g-speak">Read aloud ▷</button><button type="button" id="g-motion" aria-pressed="false">Pause character</button><button type="button" id="g-dismiss">Dismiss</button></div><p class="g-disclosure">GUIDED TOUR · Authored guidance, not AI chat.<br>Optional speech uses your browser’s voice.</p></section><button type="button" id="g-launch" aria-expanded="false" aria-controls="g-panel" aria-label="Open portfolio guide">${avatar}<span>YOUR GUIDE</span></button>`;
+ root.innerHTML=`<div id="g-greeting" hidden><p>Hey, welcome to Taher’s corner of the web. Want a quick tour?</p><div class="g-greet-actions"><button type="button" id="g-greet-start">Show me around ↗</button><button type="button" id="g-greet-no">Just exploring</button></div></div><section id="g-panel" role="dialog" aria-modal="false" aria-labelledby="g-title" hidden><div class="g-head">${avatar('g-panel-robot')}<div><p class="g-kicker">A LITTLE COMPANY</p><h2 id="g-title">Portfolio guide</h2></div><button type="button" id="g-minimize" aria-label="Minimize guide">−</button></div><p class="g-copy" id="g-copy"></p><blockquote class="g-source" id="g-source" hidden></blockquote><div class="g-actions"><button type="button" id="g-start" class="g-primary">Take a quick tour ↗</button><button type="button" id="g-next" class="g-primary" hidden>Next stop →</button><button type="button" id="g-back" hidden>Previous</button><button type="button" id="g-context">About this section</button><button type="button" id="g-stop" hidden>End tour</button></div><p id="g-status" role="status"></p><div class="g-foot"><button type="button" id="g-speak">Read aloud ▷</button><button type="button" id="g-motion" aria-pressed="false">Pause character</button><button type="button" id="g-dismiss">Dismiss</button></div><p class="g-disclosure">GUIDED TOUR · Authored guidance, not AI chat.<br>Optional speech uses your browser’s voice.</p></section><button type="button" id="g-launch" aria-expanded="false" aria-controls="g-panel" aria-label="Open portfolio guide">${avatar('g-launch-robot')}<span class="g-launch-label">Say hello <b aria-hidden="true">↗</b></span></button>`;
  document.body.append(root);document.body.classList.add('guide-ready');
  const $=id=>root.querySelector('#'+id),panel=$('g-panel'),launch=$('g-launch'),greeting=$('g-greeting');
  const restore=document.createElement('button');restore.type='button';restore.className='guide-restore';restore.textContent='Open portfolio guide ↗';document.querySelector('footer')?.append(restore);
  let open=false,touring=false,index=0,stops=[],current=null,highlight=null,observer=null,speaking=false,utterance=null,paused=read('paused')==='1',pointerFrame=0,pointerX=0,pointerY=0,lookBounds=null;
  root.classList.toggle('g-static',paused);$('g-motion').setAttribute('aria-pressed',String(paused));$('g-motion').textContent=paused?'Resume character':'Pause character';
  function mood(value){root.querySelectorAll('.g-avatar').forEach(a=>a.dataset.mood=value);}
- function stopSpeech(){if(speaking&&'speechSynthesis' in window)speechSynthesis.cancel();speaking=false;utterance=null;$('g-speak').textContent='Read aloud ▷';mood(open?'curious':'hello');}
+ function stopSpeech(){if(speaking&&'speechSynthesis' in window)speechSynthesis.cancel();speaking=false;utterance=null;$('g-speak').textContent='Read aloud ▷';mood(open?'curious':'idle');}
  function clearHighlight(){highlight?.classList.remove('g-highlight');highlight=null;}
  function controls(){ $('g-start').hidden=touring;$('g-next').hidden=!touring;$('g-back').hidden=!touring;$('g-back').disabled=index===0;$('g-stop').hidden=!touring;$('g-context').hidden=touring;$('g-next').textContent=index===stops.length-1?'Finish tour ✓':'Next stop →'; }
  function show(stop,scroll=false){
@@ -24,12 +57,12 @@ function initialize(){
   const source=stop.node?.querySelector(stop.source)?.textContent||'';$('g-source').textContent=clip(source);$('g-source').hidden=!source.trim();
   $('g-status').textContent=touring?'Stop '+(index+1)+' of '+stops.length:'Explore at your own pace.';
   if(scroll){clearHighlight();highlight=stop.node;highlight.classList.add('g-highlight');highlight.scrollIntoView({behavior:reduced.matches?'instant':'smooth',block:'start'});}
-  mood('curious');controls();
+  mood(touring?'pointing':'curious');controls();
  }
  function welcome(){stopSpeech();$('g-title').textContent='A curious little guide';$('g-copy').textContent='Want the short version of this page? I can show you the work, the thinking, and the person behind it. You choose the pace.';$('g-source').hidden=true;$('g-status').textContent='No audio plays unless you choose Read aloud.';controls();}
  function setOpen(value,focus=true){
   open=value;panel.hidden=!value;launch.setAttribute('aria-expanded',String(value));greeting.hidden=true;stopSpeech();
-  if(value){write('greeted','1');if(!touring)welcome();if(focus)$('g-minimize').focus({preventScroll:true});}
+  if(value){mood('hello');write('greeted','1');if(!touring)welcome();if(focus)$('g-minimize').focus({preventScroll:true});}
   else{touring=false;clearHighlight();controls();if(focus)launch.focus({preventScroll:true});}
   lookBounds=null;
  }
@@ -52,7 +85,7 @@ function initialize(){
  $('g-dismiss').addEventListener('click',()=>{setOpen(false,false);root.hidden=true;write('dismissed','1');restore.focus({preventScroll:true});});
  restore.addEventListener('click',()=>{write('dismissed','0');root.hidden=false;setOpen(true);});
  root.addEventListener('keydown',e=>{if(e.key==='Escape'&&open){e.preventDefault();setOpen(false);}});
- $('g-motion').addEventListener('click',()=>{paused=!paused;root.classList.toggle('g-static',paused);write('paused',paused?'1':'0');$('g-motion').setAttribute('aria-pressed',String(paused));$('g-motion').textContent=paused?'Resume character':'Pause character';root.style.removeProperty('--look-x');root.style.removeProperty('--look-y');});
+ $('g-motion').addEventListener('click',()=>{paused=!paused;root.classList.toggle('g-static',paused);write('paused',paused?'1':'0');$('g-motion').setAttribute('aria-pressed',String(paused));$('g-motion').textContent=paused?'Resume character':'Pause character';root.style.removeProperty('--look-x');root.style.removeProperty('--look-y');root.style.removeProperty('--head-turn');});
  if(!('speechSynthesis' in window)){$('g-speak').hidden=true;}else $('g-speak').addEventListener('click',()=>{
   if(speaking){stopSpeech();return;}
   utterance=new SpeechSynthesisUtterance($('g-copy').textContent+($('g-source').hidden?'':' From the page: '+$('g-source').textContent));utterance.lang='en-IN';utterance.rate=.98;
@@ -62,11 +95,15 @@ function initialize(){
  });
  function suspend(){const suspended=document.hidden||!!document.querySelector('dialog[open]');root.classList.toggle('g-suspended',suspended);if(suspended)stopSpeech();}
  document.addEventListener('visibilitychange',suspend);window.addEventListener('pagehide',()=>{stopSpeech();cancelAnimationFrame(pointerFrame);});
+ launch.addEventListener('pointerenter',()=>{if(!open&&!speaking)mood('happy');});
+ launch.addEventListener('pointerleave',()=>{if(!open&&!speaking)mood('idle');});
+ launch.addEventListener('focus',()=>{if(!open)mood('happy');});
+ launch.addEventListener('blur',()=>{if(!open)mood('idle');});
  const modalObserver=new MutationObserver(suspend);document.querySelectorAll('dialog').forEach(d=>modalObserver.observe(d,{attributes:true,attributeFilter:['open']}));
- document.addEventListener('pointermove',e=>{if(paused||reduced.matches||root.hidden||document.hidden||e.pointerType==='touch'||root.classList.contains('g-suspended'))return;pointerX=e.clientX;pointerY=e.clientY;if(pointerFrame)return;pointerFrame=requestAnimationFrame(()=>{pointerFrame=0;lookBounds=lookBounds||launch.getBoundingClientRect();root.style.setProperty('--look-x',Math.max(-2.5,Math.min(2.5,(pointerX-lookBounds.x)/180))+'px');root.style.setProperty('--look-y',Math.max(-1.5,Math.min(1.5,(pointerY-lookBounds.y)/200))+'px');});},{passive:true});
+ document.addEventListener('pointermove',e=>{if(paused||reduced.matches||root.hidden||document.hidden||e.pointerType==='touch'||root.classList.contains('g-suspended'))return;pointerX=e.clientX;pointerY=e.clientY;if(pointerFrame)return;pointerFrame=requestAnimationFrame(()=>{pointerFrame=0;lookBounds=lookBounds||launch.getBoundingClientRect();root.style.setProperty('--look-x',Math.max(-2.5,Math.min(2.5,(pointerX-lookBounds.x)/180))+'px');root.style.setProperty('--head-turn',Math.max(-5,Math.min(5,(pointerX-lookBounds.x)/150))+'deg');root.style.setProperty('--look-y',Math.max(-1.5,Math.min(1.5,(pointerY-lookBounds.y)/200))+'px');});},{passive:true});
  window.addEventListener('resize',()=>{lookBounds=null;});window.addEventListener('portfolio:content',rebuild);
  rebuild();suspend();if(read('dismissed')==='1')root.hidden=true;
  // A quiet, once-per-tab-session greeting. Never steal focus or autoplay audio.
- let greetingTimer=setTimeout(()=>{greetingTimer=null;if(!read('greeted')&&!root.hidden&&!open&&!document.hidden&&!document.querySelector('dialog[open]')){greeting.hidden=false;write('greeted','1');}},6500);
+ let greetingTimer=setTimeout(()=>{greetingTimer=null;if(!read('greeted')&&!root.hidden&&!open&&!document.hidden&&!document.querySelector('dialog[open]')){greeting.hidden=false;mood('hello');write('greeted','1');}},6500);
  window.addEventListener('pagehide',()=>clearTimeout(greetingTimer));
 }
