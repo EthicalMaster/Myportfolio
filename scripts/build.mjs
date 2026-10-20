@@ -3,7 +3,7 @@ import {spawnSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('../',import.meta.url));
 for(const f of ['index.html','style.css','motion.js','interactions.js','explore.js','intro.js','intro.css','interlude.js','skills/index.html','skills/skills.css','skills/skills.js','portrait.jpg'])await stat(new URL('../dist/'+f,import.meta.url));
-for(const f of ['dist/motion.js','dist/interactions.js','dist/explore.js','dist/intro.js','dist/interlude.js','dist/skills/skills.js','dist/guide.js','dist/guide-model.js','dist/cms-api.js','dist/cms-model.js','dist/cms-public.js','dist/cms-config.js','dist/admin/admin.js','scripts/dev.mjs']){const r=spawnSync(process.execPath,['--check',f],{cwd:root,stdio:'inherit'});if(r.status!==0)process.exit(r.status||1);}
+for(const f of ['dist/motion.js','dist/interactions.js','dist/explore.js','dist/intro.js','dist/interlude.js','dist/skills/skills.js','dist/guide-chat.js','dist/admin/requests.js','backend/portfolio-assistant/core.mjs','dist/guide.js','dist/guide-model.js','dist/cms-api.js','dist/cms-model.js','dist/cms-public.js','dist/cms-config.js','dist/admin/admin.js','scripts/dev.mjs']){const r=spawnSync(process.execPath,['--check',f],{cwd:root,stdio:'inherit'});if(r.status!==0)process.exit(r.status||1);}
 for(const page of ['index.html','skills/index.html','admin/index.html']){
  const h=await readFile(new URL('../dist/'+page,import.meta.url),'utf8'),ids=[...h.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
  if(new Set(ids).size!==ids.length)throw Error('Duplicate IDs in '+page);

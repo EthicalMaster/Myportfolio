@@ -1,0 +1,2036 @@
+[
+  {
+    "key": "index.html_1",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Identity",
+    "type": "text",
+    "label": "Skip to content",
+    "index": 0
+  },
+  {
+    "key": "index.html_2",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Identity",
+    "type": "text",
+    "label": "TAHER SAIFEE",
+    "index": 0
+  },
+  {
+    "key": "index.html_3",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)",
+    "group": "Identity",
+    "type": "text",
+    "label": "PERSONAL PORTFOLIO / 2026",
+    "index": 0
+  },
+  {
+    "key": "index.html_4",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Home",
+    "type": "text",
+    "label": "A WORK IN CONSTANT PROGRESS",
+    "index": 0
+  },
+  {
+    "key": "index.html_5",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Home",
+    "type": "text",
+    "label": "INDEPENDENT MIND. OPEN POSSIBILITIES.",
+    "index": 0
+  },
+  {
+    "key": "index.html_6",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Home",
+    "type": "text",
+    "label": "STUDENT. BUILDER. ALWAYS CURIOUS.",
+    "index": 0
+  },
+  {
+    "key": "index.html_7",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > h1:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Home",
+    "type": "text",
+    "label": "TAHER",
+    "index": 0
+  },
+  {
+    "key": "index.html_8",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > h1:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Home",
+    "type": "text",
+    "label": "SAIFEE",
+    "index": 0
+  },
+  {
+    "key": "index.html_9",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Home",
+    "type": "text",
+    "label": "Following curiosity.",
+    "index": 0
+  },
+  {
+    "key": "index.html_10",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Home",
+    "type": "text",
+    "label": "Building what comes next.",
+    "index": 1
+  },
+  {
+    "key": "index.html_11",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(2)",
+    "group": "Home",
+    "type": "text",
+    "label": "Exploring code, AI and automation.",
+    "index": 0
+  },
+  {
+    "key": "index.html_12",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(2)",
+    "group": "Home",
+    "type": "text",
+    "label": "Learning by turning ideas into things that work.",
+    "index": 1
+  },
+  {
+    "key": "index.html_13",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Home",
+    "type": "text",
+    "label": "From curiosity to something real",
+    "index": 0
+  },
+  {
+    "key": "index.html_14",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)",
+    "group": "Home",
+    "type": "text",
+    "label": "EXPLORE SELECTED WORK",
+    "index": 0
+  },
+  {
+    "key": "index.html_15",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > span:nth-of-type(1)",
+    "group": "Home",
+    "type": "text",
+    "label": "FIG. 001 / CURIOSITY IN MOTION",
+    "index": 0
+  },
+  {
+    "key": "index.html_16",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > span:nth-of-type(1)",
+    "group": "Home",
+    "type": "text",
+    "label": "ORDER, WITH ROOM TO WANDER.",
+    "index": 0
+  },
+  {
+    "key": "index.html_17",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > span:nth-of-type(2)",
+    "group": "Home",
+    "type": "text",
+    "label": "Move your pointer to explore",
+    "index": 0
+  },
+  {
+    "key": "index.html_18",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(3) > span:nth-of-type(1)",
+    "group": "Home",
+    "type": "text",
+    "label": "BASED IN INDIA",
+    "index": 0
+  },
+  {
+    "key": "index.html_19",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(3) > span:nth-of-type(2)",
+    "group": "Home",
+    "type": "text",
+    "label": "IDEAS → EXPERIMENTS → POSSIBILITIES",
+    "index": 0
+  },
+  {
+    "key": "index.html_20",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1)",
+    "group": "Home",
+    "type": "text",
+    "label": "SCROLL TO DISCOVER",
+    "index": 0
+  },
+  {
+    "key": "index.html_21",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "01 / SELECTED WORK",
+    "index": 0
+  },
+  {
+    "key": "index.html_22",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "Less hypothetical.",
+    "index": 0
+  },
+  {
+    "key": "index.html_23",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "More hands-on.",
+    "index": 0
+  },
+  {
+    "key": "index.html_24",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "A growing collection of things I’ve built.",
+    "index": 0
+  },
+  {
+    "key": "index.html_25",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "From study tools to agent workflows.",
+    "index": 1
+  },
+  {
+    "key": "index.html_26",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "AVEN / ADAPTIVE LEARNING",
+    "index": 0
+  },
+  {
+    "key": "index.html_27",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "STUDY & MASTERY",
+    "index": 0
+  },
+  {
+    "key": "index.html_28",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4)",
+    "group": "Work",
+    "type": "text",
+    "label": "CONCEPT ILLUSTRATION · NOT A PRODUCT SCREENSHOT",
+    "index": 0
+  },
+  {
+    "key": "index.html_29",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "PROJECT 01 / FLAGSHIP · IN DEVELOPMENT",
+    "index": 0
+  },
+  {
+    "key": "index.html_30",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > h3:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "AVEN",
+    "index": 0
+  },
+  {
+    "key": "index.html_31",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > h3:nth-of-type(1) > small:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "Adaptive Intelligence for Student Learning",
+    "index": 0
+  },
+  {
+    "key": "index.html_32",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "A student-only learning platform I’m building around one continuous loop: study, prac",
+    "index": 0
+  },
+  {
+    "key": "index.html_33",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "REACT + TYPESCRIPT",
+    "index": 0
+  },
+  {
+    "key": "index.html_34",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "NODE.JS",
+    "index": 0
+  },
+  {
+    "key": "index.html_35",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(3)",
+    "group": "Work",
+    "type": "text",
+    "label": "POSTGRESQL",
+    "index": 0
+  },
+  {
+    "key": "index.html_36",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(4)",
+    "group": "Work",
+    "type": "text",
+    "label": "QDRANT",
+    "index": 0
+  },
+  {
+    "key": "index.html_37",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "BUILT SO FAR",
+    "index": 0
+  },
+  {
+    "key": "index.html_38",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "Quizzes, private study materials, semantic retrieval, mastery and retention tracking,",
+    "index": 0
+  },
+  {
+    "key": "index.html_39",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > details:nth-of-type(1) > summary:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "Inside the learning system",
+    "index": 0
+  },
+  {
+    "key": "index.html_40",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > details:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "Practice and exam modes use server-authoritative timing and scoring, with results, hi",
+    "index": 0
+  },
+  {
+    "key": "index.html_41",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > details:nth-of-type(1) > p:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "Uploaded PDF, TXT and Markdown materials are extracted, structured and chunked. BGE-s",
+    "index": 0
+  },
+  {
+    "key": "index.html_42",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > details:nth-of-type(1) > p:nth-of-type(3)",
+    "group": "Work",
+    "type": "text",
+    "label": "React, TypeScript and Tailwind power the interface; Node.js, Express and PostgreSQL s",
+    "index": 0
+  },
+  {
+    "key": "index.html_43",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > details:nth-of-type(2) > summary:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "Next: the AVEN AI Core",
+    "index": 0
+  },
+  {
+    "key": "index.html_44",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > details:nth-of-type(2) > p:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "The AI Gateway and provider abstraction are in place. A working production LLM provid",
+    "index": 0
+  },
+  {
+    "key": "index.html_45",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > details:nth-of-type(2) > p:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "The next phase connects contextual teaching, document-grounded quizzes and flashcards",
+    "index": 0
+  },
+  {
+    "key": "index.html_46",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+    "group": "Work",
+    "type": "url",
+    "label": "http://edumate-studypartner-production.up.railway.app/",
+    "attr": "href"
+  },
+  {
+    "key": "index.html_47",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "Explore AVEN",
+    "index": 0
+  },
+  {
+    "key": "index.html_48",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(3)",
+    "group": "Work",
+    "type": "text",
+    "label": "Currently hosted at the original EduMate address.",
+    "index": 0
+  },
+  {
+    "key": "index.html_49",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "SMARTSTUDY / GOOGLE ADK",
+    "index": 0
+  },
+  {
+    "key": "index.html_50",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "WORKFLOW EXPLORER",
+    "index": 0
+  },
+  {
+    "key": "index.html_51",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "STUDENT REQUIREMENTS",
+    "index": 0
+  },
+  {
+    "key": "index.html_52",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "Topics",
+    "index": 0
+  },
+  {
+    "key": "index.html_53",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "Practice",
+    "index": 0
+  },
+  {
+    "key": "index.html_54",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(3)",
+    "group": "Work",
+    "type": "text",
+    "label": "Schedule",
+    "index": 0
+  },
+  {
+    "key": "index.html_55",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5)",
+    "group": "Work",
+    "type": "text",
+    "label": "STUDY PLAN WRITER",
+    "index": 0
+  },
+  {
+    "key": "index.html_56",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(7)",
+    "group": "Work",
+    "type": "text",
+    "label": "REVIEW → REVISE",
+    "index": 0
+  },
+  {
+    "key": "index.html_57",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4)",
+    "group": "Work",
+    "type": "text",
+    "label": "INTERACTIVE EXPLANATION · NOT A LIVE AI RUN",
+    "index": 0
+  },
+  {
+    "key": "index.html_58",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "PROJECT 02 / WORKSHOP PROJECT",
+    "index": 0
+  },
+  {
+    "key": "index.html_59",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > h3:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "One plan.",
+    "index": 0
+  },
+  {
+    "key": "index.html_60",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > h3:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "Multiple perspectives.",
+    "index": 1
+  },
+  {
+    "key": "index.html_61",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "SmartStudy combines sequential, parallel and loop agents to turn a student’s requirem",
+    "index": 0
+  },
+  {
+    "key": "index.html_62",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "PYTHON",
+    "index": 0
+  },
+  {
+    "key": "index.html_63",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "GOOGLE ADK",
+    "index": 0
+  },
+  {
+    "key": "index.html_64",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(3)",
+    "group": "Work",
+    "type": "text",
+    "label": "MULTI-AGENT",
+    "index": 0
+  },
+  {
+    "key": "index.html_65",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(1) > summary:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "How it works",
+    "index": 0
+  },
+  {
+    "key": "index.html_66",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "A coordinator and planning agent prepare the brief. Three specialists analyze topics,",
+    "index": 0
+  },
+  {
+    "key": "index.html_67",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+    "group": "Work",
+    "type": "url",
+    "label": "https://github.com/EthicalMaster/google-adk-workshop-agents",
+    "attr": "href"
+  },
+  {
+    "key": "index.html_68",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > article:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "Explore the repository",
+    "index": 0
+  },
+  {
+    "key": "index.html_69",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "ALSO BUILT / ON THE WEB",
+    "index": 0
+  },
+  {
+    "key": "index.html_70",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+    "group": "Work",
+    "type": "url",
+    "label": "https://fakhri-grains-barwani.vercel.app/#top",
+    "attr": "href"
+  },
+  {
+    "key": "index.html_71",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "FGB Tea",
+    "index": 0
+  },
+  {
+    "key": "index.html_72",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(2) > small:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "Original premium frontend for a tea business. Domain purchase & setup.",
+    "index": 0
+  },
+  {
+    "key": "index.html_73",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "My work: frontend design and development, plus registering and configuring fgbtea.com",
+    "index": 0
+  },
+  {
+    "key": "index.html_74",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2)",
+    "group": "Work",
+    "type": "url",
+    "label": "https://sarraportfolio-eight.vercel.app/",
+    "attr": "href"
+  },
+  {
+    "key": "index.html_75",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(2)",
+    "group": "Work",
+    "type": "text",
+    "label": "Sarra Saifee",
+    "index": 0
+  },
+  {
+    "key": "index.html_76",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(2) > small:nth-of-type(1)",
+    "group": "Work",
+    "type": "text",
+    "label": "An architecture portfolio for my sister.",
+    "index": 0
+  },
+  {
+    "key": "index.html_77",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Creative Interlude",
+    "type": "text",
+    "label": "A THREAD THROUGH MY INTERESTS",
+    "index": 0
+  },
+  {
+    "key": "index.html_78",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+    "group": "Creative Interlude",
+    "type": "text",
+    "label": "Different forms.",
+    "index": 0
+  },
+  {
+    "key": "index.html_79",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1) > em:nth-of-type(1)",
+    "group": "Creative Interlude",
+    "type": "text",
+    "label": "The same curiosity.",
+    "index": 0
+  },
+  {
+    "key": "index.html_80",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Creative Interlude",
+    "type": "text",
+    "label": "A pencil line. A wave. A connection.",
+    "index": 0
+  },
+  {
+    "key": "index.html_81",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Creative Interlude",
+    "type": "text",
+    "label": "Sketching, physics and code, in conversation.",
+    "index": 1
+  },
+  {
+    "key": "index.html_82",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(3) > a:nth-of-type(1)",
+    "group": "Creative Interlude",
+    "type": "text",
+    "label": "Explore these sides of me",
+    "index": 0
+  },
+  {
+    "key": "index.html_83",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills",
+    "type": "text",
+    "label": "02 / THE BUILDER’S CIRCUIT",
+    "index": 0
+  },
+  {
+    "key": "index.html_84",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+    "group": "Skills",
+    "type": "text",
+    "label": "Follow the signal.",
+    "index": 0
+  },
+  {
+    "key": "index.html_85",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1) > em:nth-of-type(1)",
+    "group": "Skills",
+    "type": "text",
+    "label": "Find the thinking.",
+    "index": 0
+  },
+  {
+    "key": "index.html_86",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills",
+    "type": "text",
+    "label": "A skill means more when you can see",
+    "index": 0
+  },
+  {
+    "key": "index.html_87",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills",
+    "type": "text",
+    "label": "what it helped build. Pick a node.",
+    "index": 1
+  },
+  {
+    "key": "index.html_88",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills",
+    "type": "text",
+    "label": "CONNECTION ESTABLISHED",
+    "index": 0
+  },
+  {
+    "key": "index.html_89",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > a:nth-of-type(1)",
+    "group": "Skills",
+    "type": "text",
+    "label": "Code, physics, sketching—and the person behind them.",
+    "index": 0
+  },
+  {
+    "key": "index.html_90",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > a:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills",
+    "type": "text",
+    "label": "Explore my skills & interests ↗",
+    "index": 0
+  },
+  {
+    "key": "index.html_91",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(3) > span:nth-of-type(1)",
+    "group": "Skills",
+    "type": "text",
+    "label": "EXPLORE AT YOUR OWN PACE",
+    "index": 0
+  },
+  {
+    "key": "index.html_92",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(3) > span:nth-of-type(2)",
+    "group": "Skills",
+    "type": "text",
+    "label": "PROJECT EXPERIENCE · ALWAYS DEVELOPING",
+    "index": 0
+  },
+  {
+    "key": "index.html_93",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "03 / THE PERSON",
+    "index": 0
+  },
+  {
+    "key": "index.html_94",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "About",
+    "type": "text",
+    "label": "LEARNING IS THE STARTING POINT.",
+    "index": 0
+  },
+  {
+    "key": "index.html_95",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(2) > figure:nth-of-type(1) > img:nth-of-type(1)",
+    "group": "About",
+    "type": "image",
+    "label": "portrait.jpg",
+    "attr": "src"
+  },
+  {
+    "key": "index.html_96",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(2) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "THE PERSON BEHIND THE PROJECTS",
+    "index": 0
+  },
+  {
+    "key": "index.html_97",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "A LITTLE CONTEXT",
+    "index": 0
+  },
+  {
+    "key": "index.html_98",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Two degrees.",
+    "index": 0
+  },
+  {
+    "key": "index.html_99",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Many questions.",
+    "index": 1
+  },
+  {
+    "key": "index.html_100",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > em:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "One curious mind.",
+    "index": 0
+  },
+  {
+    "key": "index.html_101",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "About",
+    "type": "text",
+    "label": "COMPUTER SCIENCE · DATA SCIENCE · EXPLORATION",
+    "index": 0
+  },
+  {
+    "key": "index.html_102",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > h2:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Still learning.",
+    "index": 0
+  },
+  {
+    "key": "index.html_103",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > h2:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Already building.",
+    "index": 0
+  },
+  {
+    "key": "index.html_104",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "I’m Taher, a first-year computer science student pursuing two degrees and exploring w",
+    "index": 0
+  },
+  {
+    "key": "index.html_105",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(2)",
+    "group": "About",
+    "type": "text",
+    "label": "I’m interested in the space where an idea becomes something useful—through code, AI, ",
+    "index": 0
+  },
+  {
+    "key": "index.html_106",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "About",
+    "type": "url",
+    "label": "https://www.linkedin.com/in/taher-saifee",
+    "attr": "href"
+  },
+  {
+    "key": "index.html_107",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Find me on LinkedIn",
+    "index": 0
+  },
+  {
+    "key": "index.html_108",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "CURRENT CHAPTER / EDUCATION",
+    "index": 0
+  },
+  {
+    "key": "index.html_109",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > details:nth-of-type(1) > summary:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "About",
+    "type": "text",
+    "label": "B.Tech · Computer Science",
+    "index": 0
+  },
+  {
+    "key": "index.html_110",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > details:nth-of-type(1) > summary:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Acropolis Institute of Technology & Research",
+    "index": 0
+  },
+  {
+    "key": "index.html_111",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > details:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Specialization in Data Science",
+    "index": 0
+  },
+  {
+    "key": "index.html_112",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > details:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "YEAR 01",
+    "index": 0
+  },
+  {
+    "key": "index.html_113",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > details:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "About",
+    "type": "text",
+    "label": "SEMESTER 01",
+    "index": 0
+  },
+  {
+    "key": "index.html_114",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > details:nth-of-type(2) > summary:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "About",
+    "type": "text",
+    "label": "BS · Data Science",
+    "index": 0
+  },
+  {
+    "key": "index.html_115",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > details:nth-of-type(2) > summary:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Indian Institute of Technology Madras",
+    "index": 0
+  },
+  {
+    "key": "index.html_116",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > details:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Foundation Level · Second term",
+    "index": 0
+  },
+  {
+    "key": "index.html_117",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > details:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Currently pursuing two courses.",
+    "index": 1
+  },
+  {
+    "key": "index.html_118",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > details:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Overall CGPA",
+    "index": 0
+  },
+  {
+    "key": "index.html_119",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > details:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "Three previous-term courses. Three A grades.",
+    "index": 1
+  },
+  {
+    "key": "index.html_120",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(2) > p:nth-of-type(1)",
+    "group": "About",
+    "type": "text",
+    "label": "ACADEMIC SNAPSHOT / OCTOBER 2026",
+    "index": 0
+  },
+  {
+    "key": "index.html_121",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Contact",
+    "type": "text",
+    "label": "04 / GET IN TOUCH",
+    "index": 0
+  },
+  {
+    "key": "index.html_122",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Contact",
+    "type": "text",
+    "label": "GOOD THINGS START WITH A CONVERSATION.",
+    "index": 0
+  },
+  {
+    "key": "index.html_123",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > h2:nth-of-type(1)",
+    "group": "Contact",
+    "type": "text",
+    "label": "Something",
+    "index": 0
+  },
+  {
+    "key": "index.html_124",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > h2:nth-of-type(1)",
+    "group": "Contact",
+    "type": "text",
+    "label": "on your",
+    "index": 1
+  },
+  {
+    "key": "index.html_125",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > h2:nth-of-type(1) > em:nth-of-type(1)",
+    "group": "Contact",
+    "type": "text",
+    "label": "mind?",
+    "index": 0
+  },
+  {
+    "key": "index.html_126",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Contact",
+    "type": "text",
+    "label": "A project, a question, or an interesting idea.",
+    "index": 0
+  },
+  {
+    "key": "index.html_127",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Contact",
+    "type": "text",
+    "label": "I’d like to hear it.",
+    "index": 1
+  },
+  {
+    "key": "index.html_128",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Contact",
+    "type": "url",
+    "label": "mailto:saifeetaher5@gmail.com",
+    "attr": "href"
+  },
+  {
+    "key": "index.html_129",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Contact",
+    "type": "text",
+    "label": "saifeetaher5@gmail.com ↗",
+    "index": 0
+  },
+  {
+    "key": "index.html_130",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(3) > a:nth-of-type(1)",
+    "group": "Contact",
+    "type": "url",
+    "label": "https://github.com/EthicalMaster",
+    "attr": "href"
+  },
+  {
+    "key": "index.html_131",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(3) > a:nth-of-type(1)",
+    "group": "Contact",
+    "type": "text",
+    "label": "GitHub ↗",
+    "index": 0
+  },
+  {
+    "key": "index.html_132",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(3) > a:nth-of-type(2)",
+    "group": "Contact",
+    "type": "url",
+    "label": "https://www.linkedin.com/in/taher-saifee",
+    "attr": "href"
+  },
+  {
+    "key": "index.html_133",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(3) > a:nth-of-type(2)",
+    "group": "Contact",
+    "type": "text",
+    "label": "LinkedIn ↗",
+    "index": 0
+  },
+  {
+    "key": "index.html_134",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(3) > a:nth-of-type(3)",
+    "group": "Contact",
+    "type": "url",
+    "label": "https://www.instagram.com/taher.saifee87",
+    "attr": "href"
+  },
+  {
+    "key": "index.html_135",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(3) > a:nth-of-type(3)",
+    "group": "Contact",
+    "type": "text",
+    "label": "Instagram ↗",
+    "index": 0
+  },
+  {
+    "key": "index.html_136",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Identity",
+    "type": "text",
+    "label": "t.s",
+    "index": 0
+  },
+  {
+    "key": "index.html_137",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Identity",
+    "type": "text",
+    "label": "BACK TO TOP ↑",
+    "index": 0
+  },
+  {
+    "key": "index.html_138",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Identity",
+    "type": "text",
+    "label": "TAHER SAIFEE / ALWAYS IN PROGRESS",
+    "index": 0
+  },
+  {
+    "key": "index.html_139",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > a:nth-of-type(2)",
+    "group": "Identity",
+    "type": "url",
+    "label": "mailto:saifeetaher5@gmail.com",
+    "attr": "href"
+  },
+  {
+    "key": "index.html_140",
+    "page": "index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > a:nth-of-type(2)",
+    "group": "Identity",
+    "type": "text",
+    "label": "Say hello ↗",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_1",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Skills / Identity",
+    "type": "text",
+    "label": "Skip to content",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_2",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Skills / Identity",
+    "type": "text",
+    "label": "TAHER SAIFEE",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_3",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)",
+    "group": "Skills / Identity",
+    "type": "text",
+    "label": "SKILLS & INTERESTS",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_4",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Mind Hero",
+    "type": "text",
+    "label": "A FEW WAYS MY MIND WORKS",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_5",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+    "group": "Skills / Mind Hero",
+    "type": "text",
+    "label": "Code. Curiosity.",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_6",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1) > em:nth-of-type(1)",
+    "group": "Skills / Mind Hero",
+    "type": "text",
+    "label": "A little graphite.",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_7",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Mind Hero",
+    "type": "text",
+    "label": "I build because I’m curious.",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_8",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Mind Hero",
+    "type": "text",
+    "label": "I sketch because I enjoy it.",
+    "index": 1
+  },
+  {
+    "key": "skills_index.html_9",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Mind Hero",
+    "type": "text",
+    "label": "There’s more than one way",
+    "index": 2
+  },
+  {
+    "key": "skills_index.html_10",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Mind Hero",
+    "type": "text",
+    "label": "to make an idea tangible.",
+    "index": 3
+  },
+  {
+    "key": "skills_index.html_11",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1)",
+    "group": "Skills / Mind Hero",
+    "type": "text",
+    "label": "PYTHON & DATA",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_12",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(2)",
+    "group": "Skills / Mind Hero",
+    "type": "text",
+    "label": "AI & AUTOMATION",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_13",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(3)",
+    "group": "Skills / Mind Hero",
+    "type": "text",
+    "label": "PHYSICS & ART",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_14",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "01 / PRACTICAL SKILLS",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_15",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Tools I use.",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_16",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1) > em:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Things I make.",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_17",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "My skills grow through projects, experiments and solving problems I actually care abo",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_18",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "A LANGUAGE I’M COMFORTABLE WITH",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_19",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Python",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_20",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "I’m comfortable coding in Python, building applications and working with libraries. I",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_21",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "APPLICATIONS",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_22",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "DATA SCIENCE",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_23",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(3)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "AI AGENTS",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_24",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "See Python in SmartStudy",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_25",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(1) > summary:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Data science",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_26",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(1) > summary:nth-of-type(1) > span:nth-of-type(2) > small:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Hands-on experience with libraries",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_27",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "I’ve worked with a range of data-science libraries in Python. Alongside my projects, ",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_28",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "My education ↗",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_29",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(2) > summary:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Web interfaces",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_30",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(2) > summary:nth-of-type(1) > span:nth-of-type(2) > small:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "HTML · CSS · JavaScript · React · TypeScript · Tailwind",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_31",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Experience building web interfaces across AVEN, FGB Tea’s original frontend and my si",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_32",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Explore the websites ↗",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_33",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(3) > summary:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Backend & retrieval",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_34",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(3) > summary:nth-of-type(1) > span:nth-of-type(2) > small:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Node.js · Express · PostgreSQL · Qdrant",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_35",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "In AVEN, I’ve worked on authentication, sessions, quizzes, learning analytics and doc",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_36",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Inside AVEN ↗",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_37",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(4) > summary:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "AI applications & agents",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_38",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(4) > summary:nth-of-type(1) > span:nth-of-type(2) > small:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Python · Google ADK · API integration",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_39",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "I’ve connected AI APIs to applications and explored tools, context and multi-agent wo",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_40",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(4) > div:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "See the agent workflow ↗",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_41",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(5) > summary:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Automation",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_42",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(5) > summary:nth-of-type(1) > span:nth-of-type(2) > small:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "n8n · Zapier · Connected workflows",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_43",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Personal learning projects connecting Gmail, Sheets, forms, Slack and Drive: moving i",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_44",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(5) > div:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Explore the Builder’s Circuit ↗",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_45",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(6) > summary:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Getting projects online",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_46",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(6) > summary:nth-of-type(1) > span:nth-of-type(2) > small:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "Git · GitHub · Deployment · Domain setup",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_47",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(6) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "I use GitHub for my projects and have deployed websites. I also purchased and configu",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_48",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(3) > details:nth-of-type(6) > div:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Skills / Build",
+    "type": "text",
+    "label": "See the original frontend ↗",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_49",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "02 / CURIOSITY, WITHOUT A CHECKLIST",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_50",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > h2:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "Some questions",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_51",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > h2:nth-of-type(1) > em:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "keep me looking.",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_52",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "AI is something I want to understand more deeply. Physics is my favourite subject. Bo",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_53",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "ARTIFICIAL INTELLIGENCE",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_54",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(1) > h3:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "What else",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_55",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(1) > h3:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "could it do?",
+    "index": 1
+  },
+  {
+    "key": "skills_index.html_56",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "I’m interested in learning more about AI—how it works, how to use it meaningfully and",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_57",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "A project that grew from it: AVEN ↗",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_58",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(2) > span:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "PHYSICS",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_59",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(2) > h3:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "My favourite",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_60",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(2) > h3:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "kind of question.",
+    "index": 1
+  },
+  {
+    "key": "skills_index.html_61",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(2) > p:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "Physics is a personal interest, not a claimed professional skill. Here’s a little wav",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_62",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > article:nth-of-type(2) > a:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "Try the wave study ↓",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_63",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "A SMALL PHYSICS PLAYGROUND",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_64",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(2) > label:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "Amplitude",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_65",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(2) > label:nth-of-type(2)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "Cycles across the view",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_66",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(3) > p:nth-of-type(1)",
+    "group": "Skills / Explore",
+    "type": "text",
+    "label": "An illustrative sine wave in arbitrary units. Change its height and spacing; this is ",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_67",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "03 / MY CREATIVE SIDE",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_68",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > h2:nth-of-type(1)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "Sometimes,",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_69",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > h2:nth-of-type(1) > em:nth-of-type(1)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "it starts with a line.",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_70",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "I’m a sketch artist by hobby. Artyvisions is the name of my Instagram art account, wh",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_71",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "ARTYVISIONS",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_72",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "A place for",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_73",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "the pencil.",
+    "index": 1
+  },
+  {
+    "key": "skills_index.html_74",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "Not every interest needs to become a product. Sketching is something I do because I e",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_75",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(2)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "Leave a little line of your own on the pad. Use a mouse, finger or pen—or add a line ",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_76",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(2)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "A small space to make something.",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_77",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "YOUR TURN TO SKETCH",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_78",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "Start anywhere.",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_79",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1)",
+    "group": "Skills / Sketch",
+    "type": "text",
+    "label": "Your drawing stays in this page and disappears on refresh. This is a visitor scratchp",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_80",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > p:nth-of-type(1)",
+    "group": "Skills / Mind Outro",
+    "type": "text",
+    "label": "DIFFERENT INTERESTS. THE SAME CURIOSITY.",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_81",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > h2:nth-of-type(1)",
+    "group": "Skills / Mind Outro",
+    "type": "text",
+    "label": "Have something",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_82",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > h2:nth-of-type(1)",
+    "group": "Skills / Mind Outro",
+    "type": "text",
+    "label": "interesting in mind?",
+    "index": 1
+  },
+  {
+    "key": "skills_index.html_83",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > a:nth-of-type(1)",
+    "group": "Skills / Mind Outro",
+    "type": "text",
+    "label": "Let’s talk",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_84",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > a:nth-of-type(1)",
+    "group": "Skills / Identity",
+    "type": "text",
+    "label": "t.s",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_85",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills / Identity",
+    "type": "text",
+    "label": "BACK TO PORTFOLIO ↗",
+    "index": 0
+  },
+  {
+    "key": "skills_index.html_86",
+    "page": "skills/index.html",
+    "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > span:nth-of-type(1)",
+    "group": "Skills / Identity",
+    "type": "text",
+    "label": "TAHER SAIFEE / ALWAYS IN PROGRESS",
+    "index": 0
+  }
+]

@@ -1,10 +1,11 @@
+import {renderRequests} from './requests.js';
 import {configured,login,logout,verifyOwner,readDocument,saveDocument,publishDocument,upload,request} from '../cms-api.js';
 import {validateDocument,publicBody,safeURL} from '../cms-model.js';
 const $=s=>document.querySelector(s),node=(tag,text,cls)=>{const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n;};
 const defaults=await fetch('../cms-defaults.json').then(r=>r.json()),fields=await fetch('../cms-fields.json').then(r=>r.json());
 let doc=structuredClone(defaults),revision=0,dirty=false,busy=false,online=false,active='Overview';
 const groups=[...new Set(fields.map(f=>f.group))],collections=['certificates','projects','education','skills','interests','experience','achievements','artwork'];
-const names=['Overview','Links & contact','Résumé',...collections.map(k=>k[0].toUpperCase()+k.slice(1)),'Existing page copy','Builder’s Circuit','Section visibility','Backup & history'];
+const names=['Overview','Requests','Links & contact','Résumé',...collections.map(k=>k[0].toUpperCase()+k.slice(1)),'Existing page copy','Builder’s Circuit','Section visibility','Backup & history'];
 const tell=message=>{$('#notice').textContent=message;};
 function state(){ $('#draft-state').textContent=dirty?'Unsaved changes':online?'Saved draft · revision '+revision:'Setup preview · not saved';$('#save').disabled=!online||busy||!dirty;$('#publish').disabled=!online||busy||dirty||revision===0; }
 function changed(){dirty=true;state();}
@@ -22,7 +23,8 @@ function fileControl(parent,label,get,set,pdf=false){
 function render(){
  $('#section-title').textContent=active;$('#editor').replaceChildren();document.querySelectorAll('#sections button').forEach(b=>{if(b.textContent===active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
  const kind=active.toLowerCase();
- if(active==='Overview'){
+ if(active==='Requests'){renderRequests($('#editor'),online);
+ }else if(active==='Overview'){
   const p=panel('Your next chapter starts here.','Edit your content, save a private draft, preview both pages, and publish deliberately. Existing motion and page layouts are preserved.');
   const grid=node('div',null,'grid');p.append(grid);for(const [label,count] of [['New entries',Object.values(doc.collections).flat().length],['Certificates',doc.collections.certificates.length],['Résumé',doc.resume.file?'Attached':'Not yet']]){const cell=node('div',label,'stat');cell.append(node('strong',String(count)));grid.append(cell);}
   panel('Nothing to invent.','Certificates and résumé links stay absent until you add real content and turn on visibility. Upcoming learning is not presented as an earned skill.');

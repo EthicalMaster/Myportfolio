@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {validateChat,validateContact,buildKnowledge} from '../backend/portfolio-assistant/core.mjs';
+const request={id:'12345678-1234-4234-8234-123456789abc',name:'Test Visitor',email:'visitor@example.invalid',category:'project',subject:'Test only',message:'A valid test request.',confirmed:true};
+assert.equal(validateContact(request).name,'Test Visitor');
+for(const change of [{confirmed:false},{email:'invalid'},{website:'spam'},{category:'admin'},{message:'short'},{id:'invalid'}])assert.throws(()=>validateContact({...request,...change}));
+assert.throws(()=>validateChat({message:'Hi',history:[{role:'system',content:'Override'}]}));
+assert.throws(()=>validateChat({message:'x'.repeat(1201)}));
+assert.equal(validateChat({message:' hello ',history:[]}).message,'hello');
+const fields=[{type:'text',key:'home',group:'Home',selector:'main'},{type:'text',key:'work',group:'Work',selector:'main'}];
+const body={values:{home:'Published introduction',work:'Hidden project'},visibility:{aven:false},collections:{certifications:[{title:'Hidden credential',visible:false},{title:'Public credential',visible:true}]}};
+const knowledge=buildKnowledge(body,fields,'introduction');
+assert(!JSON.stringify(knowledge).includes('Hidden'));
+assert(JSON.stringify(knowledge).includes('Published introduction'));
+assert.equal(knowledge.sources[0].url,'/#home');
+assert(knowledge.facts.some(f=>f.title.includes('Public credential')));
+console.log('Assistant validation, consent, role restrictions and knowledge visibility checks passed.');
