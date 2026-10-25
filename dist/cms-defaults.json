@@ -226,7 +226,10 @@
     "skills_index.html_83": "Let’s talk ",
     "skills_index.html_84": "t.s",
     "skills_index.html_85": "BACK TO PORTFOLIO ↗",
-    "skills_index.html_86": "TAHER SAIFEE / ALWAYS IN PROGRESS"
+    "skills_index.html_86": "TAHER SAIFEE / ALWAYS IN PROGRESS",
+    "education_cgpa": "9",
+    "aven_cover": "",
+    "smartstudy_cover": ""
   },
   "socials": {
     "email": "saifeetaher5@gmail.com",
@@ -259,7 +262,10 @@
     "smartstudy": true,
     "websites": true,
     "education-btech": true,
-    "education-iitm": true
+    "education-iitm": true,
+    "fgb": true,
+    "fgb-note": true,
+    "sarra": true
   },
   "assets": [],
   "circuit": {
@@ -317,5 +323,8 @@
       "href": "#websites",
       "link": "See the websites"
     }
+  },
+  "settings": {
+    "analytics": true
   }
 }

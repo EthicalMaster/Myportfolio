@@ -2032,5 +2032,32 @@
     "type": "text",
     "label": "TAHER SAIFEE / ALWAYS IN PROGRESS",
     "index": 0
+  },
+  {
+    "key": "education_cgpa",
+    "page": "index.html",
+    "selector": "#education-iitm .academic-result strong",
+    "group": "About",
+    "type": "text",
+    "label": "CGPA",
+    "index": 0
+  },
+  {
+    "key": "aven_cover",
+    "page": "index.html",
+    "selector": "#aven .cms-project-cover",
+    "group": "Work",
+    "type": "image",
+    "label": "Project cover image",
+    "attr": "src"
+  },
+  {
+    "key": "smartstudy_cover",
+    "page": "index.html",
+    "selector": "#smartstudy .cms-project-cover",
+    "group": "Work",
+    "type": "image",
+    "label": "Project cover image",
+    "attr": "src"
   }
 ]

@@ -11,9 +11,10 @@ export async function renderContent(d,owner=false){
  for(const f of fields.filter(x=>x.page===page)){
   const node=document.querySelector(f.selector),value=d.values[f.key];if(!node||typeof value!=='string')continue;
   if(f.type==='text'){const t=[...node.childNodes].filter(n=>n.nodeType===3)[f.index];if(t)t.nodeValue=value;}
-  else {try{const url=await resolve(value,owner);if(ticket!==renderID)return;if(url){node.setAttribute(f.attr,url);node.hidden=false;}else node.removeAttribute(f.attr);}catch{if(f.type==='image')node.hidden=true;}}
+  else {try{const url=await resolve(value,owner);if(ticket!==renderID)return;if(url){node.setAttribute(f.attr,url);node.hidden=false;}else {node.removeAttribute(f.attr);if(f.type==='image')node.hidden=true;}}catch{if(f.type==='image')node.hidden=true;}}
  }
  for(const [key,visible] of Object.entries(d.visibility||{})){const section=document.getElementById(key);if(section)section.hidden=!visible;document.querySelectorAll('a[href="#'+key+'"]').forEach(a=>a.hidden=!visible);}
+ for(const art of document.querySelectorAll('.project-art'))art.classList.toggle('has-cover',!!art.querySelector('.cms-project-cover:not([hidden])'));
  const s=d.socials;document.querySelectorAll('a[href^="mailto:"]').forEach(a=>{a.href='mailto:'+s.email;if(a.classList.contains('email-link'))a.textContent=s.email+' ↗';});
  const socialRow=document.querySelector('.social-row');if(socialRow){socialRow.replaceChildren();for(const [key,label] of [['github','GitHub'],['linkedin','LinkedIn'],['instagram','Instagram']])if(safeURL(s[key])){const a=el('a',label+' ↗');a.href=s[key];a.target='_blank';a.rel='noopener noreferrer';socialRow.append(a);}}
  document.querySelectorAll('.about-text .text-link').forEach(a=>{a.hidden=!safeURL(s.linkedin);if(safeURL(s.linkedin))a.href=s.linkedin;});
@@ -46,3 +47,6 @@ export async function renderContent(d,owner=false){
 const preview=new URLSearchParams(location.search).get('preview')==='owner'&&window.parent!==window;
 if(preview){window.addEventListener('message',e=>{if(e.origin===location.origin&&e.source===window.parent&&e.data?.type==='portfolio-preview')renderContent(e.data.body,true);});window.parent.postMessage({type:'portfolio-preview-ready'},location.origin);}
 else if(configured){try{const row=await readDocument();if(row)await renderContent(row.body);}catch(e){console.warn('Published content unavailable; displaying the bundled portfolio.',e.message);}}
+
+import {startAnalytics} from './analytics.js';
+startAnalytics(window.portfolioContent?.settings?.analytics!==false);

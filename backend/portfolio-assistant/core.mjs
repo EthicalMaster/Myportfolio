@@ -15,7 +15,7 @@ export function buildKnowledge(body,fields,question){
  for(const f of fields){if(f.type!=='text'||typeof body.values?.[f.key]!=='string')continue;
   // Original sections hidden by the owner are excluded from grounding.
   const hidden=Object.entries(body.visibility||{}).some(([id,on])=>!on&&(f.group.toLowerCase()===id.replaceAll('-',' ')||f.selector.includes('#'+id)));
-  if(hidden||(f.group==='Work'&&['aven','smartstudy','websites'].some(id=>body.visibility?.[id]===false))||(f.group==='About'&&['education-btech','education-iitm'].some(id=>body.visibility?.[id]===false)))continue;
+  if(hidden||(f.group==='Work'&&['aven','smartstudy','websites','fgb','sarra'].some(id=>body.visibility?.[id]===false))||(f.group==='About'&&['education-btech','education-iitm'].some(id=>body.visibility?.[id]===false)))continue;
   const key=f.group;groups.set(key,(groups.get(key)||'')+' '+body.values[f.key]);
  }
  for(const [kind,list] of Object.entries(body.collections||{}))for(const item of list){if(!item.visible)continue;const key=kind+': '+item.title;groups.set(key,[item.title,item.organization,item.date,item.description,item.tags].filter(Boolean).join(' — '));links.set(key,['skills','interests','artwork'].includes(kind)?'/skills/#collection-'+kind:'/#collection-'+kind);}
